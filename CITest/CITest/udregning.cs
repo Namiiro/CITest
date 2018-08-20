@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CITest
 {
-    class udregning
+    public class udregning
     {
         public int Plus(int x, int y)
         {
