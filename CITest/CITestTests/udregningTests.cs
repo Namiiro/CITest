@@ -23,5 +23,18 @@ namespace CITest.Tests
             //Assert
             Assert.AreEqual(10, excpected);
         }
+
+        [TestMethod()]
+        public void MinusTest()
+        {
+            //Arrange
+            udregning udregning = new udregning();
+
+            //Act 
+            int excpected = udregning.Minus(5, 2);
+
+            //Assert
+            Assert.AreEqual(3, excpected);
+        }
     }
 }
